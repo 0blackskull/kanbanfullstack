@@ -1,0 +1,66 @@
+.DisplayNavigation {
+    background-color: #ffffff;
+    padding-top: 2vh;
+    height: 6vh;
+    width: 100%;
+    min-height: 30px;
+    align-items: center;
+    justify-items: left;
+    padding-left: 2em;
+    overflow-y: show;
+    position: relative;
+  }
+
+.DropdownButton {
+    /* position: relative; */
+    vertical-align: middle;
+}
+
+.DropdownButton img {
+    height: 1.5em;
+    width: 1.5em;
+    vertical-align: middle;
+    margin-right: 10px;
+  }
+
+.DropdownButton button {
+    background-color: #ffffff;
+    border: 3px solid #eeeff2;
+    border-radius: 0.3em;
+    padding: 4px;
+}
+
+.DropMenu {
+    margin: 0.5em 0 0.5em 0;
+    padding: 1em 1em 0.3em 1em;
+    border-radius: 0.5em;
+    border: 3px solid #eeeff2;
+    background-color: #ffffff;
+    /* position: relative; */
+    z-index: 100;
+    min-width: 160px;
+    min-height: 40px;
+    width: 12vw;
+    height: 8vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    vertical-align: middle;
+    font-size: 0.75em;
+}
+
+.DropdownName {
+    color:#979798;
+}
+
+.DropMenuItem {
+    height: 50%;
+}
+
+.DropMenuItem select {
+    float: right;
+    background-color: #ffffff;
+    border: 3px solid #eeeff2;
+    border-radius: 0.3em;
+    font-size: 0.75em;
+}

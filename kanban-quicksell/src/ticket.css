@@ -1,0 +1,97 @@
+
+.TicketId {
+    display: inline-block;
+    width: 100%;
+    color: #6b6f76;
+    margin: 0;
+    padding: 0;
+    font-size: 0.8em;
+    z-index: 1;
+}
+
+.UserIcon {
+    float: right;
+    margin: 0 -10px 0 0;
+    padding: 0;
+    z-index: 1;
+}
+
+.UserIcon img {
+    position: relative;
+    z-index: 1;
+}
+
+.TicketTitle {
+    color: black;
+    width: 90%;
+    margin: 1px 0 0 5px;
+    padding: 0;
+    font-weight: 410;
+    font-size: 0.85em;
+    height: 2.8em;
+    vertical-align: top;
+}
+
+.TitleText {
+    display: inline-block;
+    vertical-align: top;
+    height: 100%;
+    max-width: 170px;
+}
+
+.TicketStatus {
+    display: inline-block;
+    vertical-align: top;
+}
+
+.TicketPriority {
+    margin: 0;
+    padding:  0 2px 2px 2px;
+    display: inline-block;
+    max-width: fit-content;
+    height: 100%;
+    border: 1px solid #777b815e;
+    border-radius: 2px;
+}
+
+.TicketPriority img {
+    height: 1em;
+    width: 1em;
+    vertical-align: bottom;
+    margin: 0;
+}
+
+.TicketTag {
+    display: inline-block;
+    color: #696d74;
+    font-size: 0.8em;
+    border: 1px solid #777b815e;
+    padding:  2px 2px 3px 2px;
+    max-width: fit-content;
+    min-height: 100%;
+    margin: 0 0 0 5px;
+    border-radius: 2px;
+}
+
+.TicketTag img {
+    height: 1em;
+    width: 1em;
+    margin-right: 2px;
+    vertical-align: middle;
+}
+
+.greenLogo, .idleLogo {
+    height: 10px;
+    width: 10px;
+    background-color: greenyellow;
+    border-radius: 50%;
+    border: 2px solid white;
+    display: inline-block;
+    margin-left: -18px;
+    margin-bottom: -8px;
+    z-index: 101;
+}
+
+.idleLogo {
+    background-color: #bbb;
+}
